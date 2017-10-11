@@ -58,7 +58,9 @@ def make_text(chains):
         length = len(" ".join(words)) + len(word) + 1
         
         if length > 140:
+            print
             print length
+            print
             break
 
         words.append(word)
